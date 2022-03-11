@@ -402,6 +402,54 @@ nav .nav-right .nav-button-container {
     object-fit: cover;
 }
 
+/* Footer Section */
+footer {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    padding: 40px 90px 10px;
+    font-size: 1.3rem;
+    background-color: var(--light-blue);
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+}
+.goal-side {
+    width: 150px;
+}
+.goal-side h3 {
+    font-size: 2.4rem;
+    color: var(--blue-king);
+    margin-bottom: 15px;
+}
 
+.about-side {
+    width: 650px;
+    display: flex;
+    justify-content: flex-end;
+}
+.about-side ul {
+    list-style: none;
+    margin: 0 25px;
+}
+.about-side ul li {
+    margin: 10px 0;
+}
+.about-side ul li b {
+    font-size: 1.4rem;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom div p {
+    display: inline;
+    margin: 0 10px;
+}
 
 
