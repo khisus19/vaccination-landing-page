@@ -432,6 +432,7 @@ footer {
     width: 650px;
     display: flex;
     justify-content: flex-end;
+    font-size: 1.4rem;
 }
 .about-side ul {
     list-style: none;
@@ -441,7 +442,7 @@ footer {
     margin: 10px 0;
 }
 .about-side ul li b {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 .footer-bottom {
     display: flex;
